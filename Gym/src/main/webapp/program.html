@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<style>
+		body {
+			font-family: 'Baloo Bhai 2', cursive;
+			margin: 0px;
+			padding: 0px;
+			background-image: url(imgs/backimg.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			color: white;
+		}
+
+		.left {
+			/*border: 2px solid red;*/
+			position: absolute;
+			display: inline-block;
+			left: 34px;
+			top: 20px;
+		}
+
+		.left img {
+			/*display: inline-block;
+		position: absolute;*/
+			width: 105px;
+			height: 50px;
+			filter: invert(100%);
+		}
+
+		.left div {
+			text-align: center;
+			line-height: 16px;
+			font-size: 21px
+		}
+
+		.mid {
+			/*border: 2px solid green;*/
+			display: block;
+			width: 40%;
+			margin: 20px auto;
+		}
+
+		.right {
+			/*border: 2px solid yellow;*/
+			display: inline-block;
+			position: absolute;
+			right: 34px;
+			top: 20px;
+
+		}
+
+		.btn {
+			font-family: 'Baloo Bhai 2', cursive;
+			;
+			padding: 4px 11px;
+			margin: 4px 2px;
+			background-color: black;
+			color: white;
+			font-size: 17px;
+			cursor: pointer;
+			border-radius: 12px;
+			text-decoration: none;
+		}
+
+		.btn:hover {
+			background-color: grey;
+		}
+
+		.navbar {
+			display: inline-block;
+		}
+
+		.navbar li {
+			display: inline-block;
+			font-size: 20px;
+		}
+
+		.navbar li a {
+			color: white;
+			text-decoration: none;
+			padding: 30px 18px;
+			font-size: 25px;
+		}
+
+		.navbar li a:hover {
+			text-decoration: underline;
+			color: red;
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		.row {
+			background-color: lightgrey;
+			color: black;
+			font-weight: bolder;
+			border-radius: 20px;
+		}
+
+		.col img {
+			width: 350px;
+			height: 350px;
+			margin: auto;
+		}
+	</style>
+</head>
+
+<body>
+	<header class="header">
+		<div class="left">
+			<img src="imgs/logo4.webp" alt="Gold Gym">
+			<div>
+				Gold Gym
+			</div>
+		</div>
+		<div class="mid">
+			<ul class="navbar">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="program.html">Programs</a></li>
+				<li><a href="Abouts.html">About us</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<button class="btn"><a href="Contact.jsp">Contact us</a></button>
+			<button class="btn"><a href="Login.jsp">Login</a></button>
+		</div>
+	</header>
+	<section class="container">
+		<div class="row">
+			<div class="text-center mt-3">
+				<h3>CORPORATE WELLNESS PROGRAM</h3>
+			</div>
+			<div class="col p-5 text-justify">
+				<p>
+					A proven workplace wellness programs to improve employee motivation, dedication, and productivity.
+					Employees are the key to an organization’s success. Studies indicate, organizations around the world
+					grapple to deal with performance lows brought on by employees’ drop in performance. Of the factors
+					identified for these performance drops, lack of wellness has been identified as the leading
+					causative factor. Lethargic employees, unwell employees, absent employees – what every organization
+					around the world would dread to begin its day with. We’re all too familiar with employees who walk
+					in with common cold afflictions, back pain or just the lack of energy even at the beginning of the
+					day. Alternatively, consider the executives who look at you with a blank expression in an
+					all-important meeting. Wellness is an optimal state of three elements: mind, body, and spirit. In
+					this state, an individual is primed to give his or her best in every sphere of life.
+				</p>
+			</div>
+			<div class="col text-center p-5">
+				<img src="imgs/program1.jpg">
+			</div>
+		</div>
+
+		<div class="row mt-2">
+			<div class="text-center mt-3">
+				<h3>PERSONAL TRAINING PROGRAM</h3>
+			</div>
+			<div class="col text-center p-5">
+				<img src="imgs/img6.jpg">
+			</div>
+			<div class="col p-5 text-justify">
+				<p>
+					The Gold’s Gym Fitness Institute GGFI is India’s first International Fitness Management Institute
+					that offers Fitness Training Program. It offers certificate courses in Fitness Management, Personal
+					Training and Spinning Instructing. It covers a range of subjects to comprehensively address and
+					ensure the best international brand practices in India. The 3 month courses are monitored by
+					qualified personnel of Gold’s Gym, and also hosts guest lectures by the biggest names in the
+					international fitness training industry with guaranteed internships and a firsthand opportunity to
+					experience fitness training from the world leaders in it. The GGFI offers the most exciting and
+					up-to-date education pathway to gain industry leading qualifications as well as ongoing training in
+					all aspects of the fitness industry. 
+				</p>
+			</div>
+		</div>
+
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
